@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+the hidden .git file is created. So git knows where to look for meta data
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+This gives you a place to review what files are committed for you submit the commit.
+

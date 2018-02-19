@@ -4,3 +4,17 @@ the hidden .git file is created. So git knows where to look for meta data
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 This gives you a place to review what files are committed for you submit the commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+use it to review before comming changes
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when trying out a change that you dont know yet if you want to make permanent, or you want to keep the original working file in tact
+
+How do the diagrams help you visualize the branch structure?
+they help to show at what point the file diverts off showing which changes would or wouldnt affect the main file
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is you can keep multiple changes which have been developed independently. To show the history of each of the changes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros - saves time looking through code. cons, bugs could be introduced if the wrong code is merged in or out.
